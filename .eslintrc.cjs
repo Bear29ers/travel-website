@@ -167,7 +167,7 @@ const config = {
     'jsx-a11y/label-has-associated-control': 'off',
     /* tailwindcss */
     'tailwindcss/no-custom-classname': [
-      'warn',
+      'off',
       {
         config: 'tailwind.config.cjs',
         cssFiles: ['**/*.scss', '!**/node_modules', '!**/.*', '!**/dist', '!**/build'],
