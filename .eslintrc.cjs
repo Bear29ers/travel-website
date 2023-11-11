@@ -82,6 +82,8 @@ const config = {
     ],
     'react/prop-types': 'off',
     'react/jsx-uses-react': 'off',
+    'react/require-default-props': 'off',
+    'react/button-has-type': 'off',
     'react/react-in-jsx-scope': 'off',
     'react-hooks/exhaustive-deps': 'warn',
     'react/no-unknown-property': ['error', { ignore: ['space'] }],
@@ -161,6 +163,8 @@ const config = {
         },
       },
     ],
+    /* jsx-a11y */
+    'jsx-a11y/label-has-associated-control': 'off',
     /* tailwindcss */
     'tailwindcss/no-custom-classname': [
       'warn',
