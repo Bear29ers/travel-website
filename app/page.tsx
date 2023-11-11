@@ -1,5 +1,21 @@
-const Home = () => {
-  return <h1 className="text-2xl font-bold text-teal-500">Hello World</h1>;
+import Camp from '@/components/Camp';
+import Features from '@/components/Features';
+import GetApp from '@/components/GetApp';
+import Guide from '@/components/Guide';
+import Hero from '@/components/Hero';
+
+import type { NextPage } from 'next';
+
+const Home: NextPage = () => {
+  return (
+    <>
+      <Hero />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
+    </>
+  );
 };
 
 export default Home;
