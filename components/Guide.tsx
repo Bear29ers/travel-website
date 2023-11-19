@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Guide: FC = () => {
   return (
     <section className="flexCenter flex-col">
-      <div className="padding-container max-container w-full border-2 border-red-500 pb-24">
+      <div className="padding-container max-container w-full pb-24">
         <Image src="/camp.svg" alt="camp" width={50} height={50} />
         <p className="regular-18 -mt-1 mb-3 uppercase text-green-50">We are here for you</p>
         <div className="flex flex-wrap justify-between gap-5">
@@ -17,7 +17,7 @@ const Guide: FC = () => {
           </p>
         </div>
       </div>
-      <div className="flexCenter max-container relative w-full border-2 border-blue-500">
+      <div className="flexCenter max-container relative w-full">
         <Image
           src="/boat.png"
           alt="boat"
